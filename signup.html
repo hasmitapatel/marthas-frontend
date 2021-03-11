@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Marthas Furnishing Fabrics</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="site-wrap">
+    <div id="body-nav" class="mobile-menu">
+      <div class="mobile-wrapper">
+        <div class="mobile_menu_container">
+          <div class="mobile_head services">
+            <h4>Shop</h4><span>></span>
+          </div>
+          <div class="mobile_head">
+            <a href="about.html">
+              About Us
+            </a>
+          </div>
+          <div class="mobile_head">
+            <a href="news.html">
+              Blog
+            </a>
+          </div>
+          <div class="mobile_head">
+            <a href="contact.html">
+              Contact
+            </a>
+          </div>
+          <a class="outline-btn modal-btn">Fabric Finder</a>
+          <select class="currency">
+            <option>NZD</option>
+            <option>AUD</option>
+          </select>
+          <a href="" class="menu-image" style="background-image: url(images/promotion.jpg)">
+            <h4>Promotion</h4>
+          </a>
+        </div>
+        <div class="mobile_body" style="display:none;" data-menu="services">
+          <div class="select">
+            <h3>Shop</h3>
+            <span>< Back</span>
+          </div>
+          <ul class="sub-menu shop">
+            <li rel="category">Shop by Category</li>
+            <li rel="fabric">Shop by Fabric Type</li>
+            <li rel="quote">Get a Quote</li>
+          </ul>
+        </div>
+        <div class="mobile_body" style="display:none;" id="category">
+          <div class="select">
+            <h3>Shop by Category</h3>
+            <span>< Back</span>
+          </div>
+          <ul class="sub-menu">
+            <div class="menu-acc-wrapper">
+            <ul class="menu-acc">
+              <li>
+                  <a href="collection.html"><h3>New Arrivals</h3></a>
+              </li>
+                <li>
+                    <a href="collection.html"><h3>Accessories</h3></a>
+                </li>
+                <li>
+                    <a href="collection.html"><h3>Available Online</h3></a>
+                </li>
+                <li>
+                    <a href="collection.html"><h3>Curtains</h3></a>
+                </li>
+                <li class="mail">
+                    <a href="#"><h3>Cushions</h3><span></span></a>
+                    <ul class="sub-menu">
+                        <li>
+                          <ul>
+                            <li><a href="">Inners</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="collection.html"><h3>Liberty</h3></a>
+                </li>
+                <li>
+                    <a href="collection.html"><h3>Furniture</h3></a>
+                </li>
+                <li class="mail">
+                    <a href="#"><h3>Fabrics</h3><span></span></a>
+                    <ul class="sub-menu">
+                        <li>
+                          <ul>
+                            <li><a href="">Inners</a></li>
+                            <li><a href="">Inners</a></li>
+                            <li><a href="">Inners</a></li>
+                            <li><a href="">Inners</a></li>
+                          </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+          </ul>
+        </div>
+        <div class="mobile_body" style="display:none;" id="fabric">
+          <div class="select">
+            <h3>Shop by Fabric Type</h3>
+            <span>< Back</span>
+          </div>
+          <ul class="sub-menu">
+            <li><a href="product.html">Linen</a></li>
+            <li><a href="product.html">Wool</a></li>
+            <li><a href="product.html">Velvet</a></li>
+            <li><a href="product.html">Cotton</a></li>
+            <li><a href="product.html">Synthetic/Blends</a></li>
+            <li><a href="product.html">Taffela</a></li>
+            <li><a href="product.html">Lining</a></li>
+          </ul>
+        </div>
+        <div class="mobile_body" style="display:none;" id="quote">
+          <div class="select">
+            <h3>Get a Quote</h3>
+            <span>< Back</span>
+          </div>
+          <ul class="sub-menu">
+            <li><a href="quote-form.html">Cushions</a></li>
+            <li><a href="quote-form.html">Curtains</a></li>
+            <li><a href="quote-form.html">Blinds</a></li>
+            <li><a href="quote-form.html">Peamattress</a></li>
+            <li><a href="quote-form.html">Headboards</a></li>
+            <li><a href="quote-form.html">Lamp Shades</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="push-wrap">
+      <div class="mobile-header scroll">
+        <a class="cart" href="cart.html"><span class="icon"></span><span class="cart-count">0</span></a>
+        <a href="index.html" class="logo"></a>
+        <div class="nav-buttons">
+          <a id="mobileSearch" class="search"><span></span></a>
+          <div class="nav-icon toggle-nav"></div>
+        </div>
+      </div>
+      <header class="border">
+        <div class="lg-container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="desktop-links">
+                <ul class="desktop-nav">
+                  <li class="dropdwn dropbtn">
+                    <a href="#">Shop<span></span></a>
+                  </li>
+                  <li>
+                    <a href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="news.html">Blog</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2"><a href="index.html" class="logo"></a></div>
+            <div class="col-lg-5">
+              <div class="modal-buttons">
+                <a class="outline-btn modal-btn">Fabric Finder</a>
+                <a id="search" class="search" href=""><span></span>
+                  <p>Search</p>
+                </a>
+                <a class="cart" href="cart.html"><span class="icon"></span><span class="cart-count">1</span>
+                  <p>Cart</p>
+                </a>
+                <select class="currency">
+                  <option>NZD</option>
+                  <option>AUD</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="pb-10">
+        <div class="lg-container">
+          <div class="row product-page-header">
+            <div class="col-12">
+              <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Create Account</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sm-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="title">
+                <h1 class="centered-heading">Sign Up</h1>
+                  </div>
+              <form  class="login" action="">
+                  <div class="detail">
+                    <label for="">First Name</label>
+                    <input type="text">
+                  </div>
+                  <div class="detail">
+                    <label for="">Last Name</label>
+                    <input type="text">
+                  </div>
+                  <div class="detail">
+                    <label for="">Email</label>
+                    <input type="email">
+                  </div>
+                <div class="detail">
+                  <label for="">Password</label>
+                  <input type="password" name="">
+                </div>
+                <button class="solid-btn">Create Account</button>
+              </form>
+              <div class="seperate">
+              <p>Already have an account? <a href="signup.html">Sign in</a></p></div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+      <footer>
+                <div class="lg-container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="newsletter">
+                        <form action="">
+                          <input class="email" type="text" placeholder="Email Address">
+                          <button class="button">Subscribe</button>
+                        </form>
+                        <div class="social-media mt-hide-flex">
+                          <a href="https://www.instagram.com/marthasfabrics/" target="_blank"><span style="background-image: url(images/ig.svg)"></span></a>
+                          <a href="https://www.facebook.com/marthas.furnishing.fabrics" target="_blank"><span style="background-image: url(images/fb.svg)"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row links">
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="flex-container">
+                        <div class="footer-links">
+                          <h4>Navigate</h4>
+                          <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="news.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="quote.html">Request a Quote</a></li>
+                          </ul>
+                        </div>
+                        <div class="social-media dt-hide-flex">
+                          <a href="https://www.instagram.com/marthasfabrics/" target="_blank"><span style="background-image: url(images/ig.svg)"></span></a>
+                          <a href="https://www.facebook.com/marthas.furnishing.fabrics" target="_blank"><span style="background-image: url(images/fb.svg)"></span></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="footer-links">
+                        <h4>Help</h4>
+                        <ul>
+                          <li><a href="basic.html">faq</a></li>
+                          <li><a href="product.html">shipping & returns</a></li>
+                          <li><a href="product.html">privacy policy</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="footer-links">
+                        <h4>Account</h4>
+                        <ul>
+                          <li><a href="login.html">Log in</a></li>
+                          <li><a href="signup.html">Sign Up</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="footer-links">
+                        <h4>Blog</h4>
+                        <ul>
+                          <li><a href="article.html">Lorem Ipsum Article</a></li>
+                          <li><a href="article.html">Lorem Ipsum Article</a></li>
+                          <li><a href="article.html">Lorem Ipsum Article</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="credit-accepted">
+                        <img style="height: 45px;" src="images/credit-cards.svg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row copyright">
+                    <div class="col-12 col-lg-10">
+                      <p>COPYRIGHT © 2019 martha's finishing fabrics</p>
+                    </div>
+                    <div class="col-12 col-lg-2">
+                      <div class="fabric">
+                        <p>Ecommerce by <a href="https://fabricdigital.co.nz/" target="_blank" title="Check it out">Fabric</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          </div>
+          <div class="popup-search">
+          <span class="close-modal"></span>
+          <div class="popup-inner">
+              <div class="lg-container">
+                <div class="row">
+                  <div class="col-12">
+                    <form>
+                          <input type="text" id="project" placeholder="Start typing to search">
+                    </form>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="close-form"></div>
+          </div>
+
+          <div class="mobile-search">
+            <div class="inner">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
+          <!-- Menu Dropdown -->
+          <div class="popup">
+            <div class="popup-inner">
+              <div id="tab-wrapper">
+                <div class="lg-container">
+                  <div class="row">
+                    <div class="col-12 col-lg-9">
+                      <div class="shop-heading">
+                        <h2>Shop</h2>
+                        <a href="collection.html" class="solid-btn">Shop All</a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <a href="#" class="close">Close</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-lg-3">
+                      <div class="menu-section">
+                        <div class="menu-heading">
+                          <h4>Shop by Category</h4>
+                          <a href="collection.html">View All</a>
+                        </div>
+                        <div class="menu-acc-wrapper">
+                          <ul class="menu-acc">
+                            <li>
+                              <a href="collection.html">
+                                <h3>New Arrivals</h3>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="collection.html">
+                                <h3>Accessories</h3>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="collection.html">
+                                <h3>Available Online</h3>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="collection.html">
+                                <h3>Curtains</h3>
+                              </a>
+                            </li>
+                            <li class="mail">
+                              <a href="#">
+                                <h3>Cushions</h3><span></span>
+                              </a>
+                              <ul class="sub-menu">
+                                <li>
+                                  <ul>
+                                    <li><a href="collection.html">Inners</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="collection.html">
+                                <h3>Liberty</h3>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="collection.html">
+                                <h3>Furniture</h3>
+                              </a>
+                            </li>
+                            <li class="mail">
+                              <a href="#">
+                                <h3>Fabrics</h3><span></span>
+                              </a>
+                              <ul class="sub-menu">
+                                <li>
+                                  <ul>
+                                    <li><a href="collection.html">Inners</a></li>
+                                    <li><a href="collection.html">Inners</a></li>
+                                    <li><a href="collection.html">Inners</a></li>
+                                    <li><a href="collection.html">Inners</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <div class="menu-section">
+                        <div class="menu-heading">
+                          <h4>Shop by Fabric Type</h4>
+                          <a href="collection.html">View All</a>
+                        </div>
+                        <ul class="links">
+                          <li><a href="product.html">Linen</a></li>
+                          <li><a href="product.html">Wool</a></li>
+                          <li><a href="product.html">Velvet</a></li>
+                          <li><a href="product.html">Cotton</a></li>
+                          <li><a href="product.html">Synthetic/Blends</a></li>
+                          <li><a href="product.html">Taffela</a></li>
+                          <li><a href="product.html">Lining</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <div class="menu-section">
+                        <div class="menu-heading">
+                          <h4>Get a Quote</h4>
+                        </div>
+                        <ul class="links">
+                          <li><a href="quote-form.html">Cushions</a></li>
+                          <li><a href="quote-form.html">Curtains</a></li>
+                          <li><a href="quote-form.html">Blinds</a></li>
+                          <li><a href="quote-form.html">Peamattress</a></li>
+                          <li><a href="quote-form.html">Headboards</a></li>
+                          <li><a href="quote-form.html">Lamp Shades</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <a href="article.html" class="menu-image" style="background-image: url(images/promotion.jpg)">
+                        <h4>Promotion</h4>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pseudo-fade"></div>
+            </div>
+            <div class="close-form"></div>
+          </div>
+          <!-- Menu Dropdown ends-->
+          <div class="modal-popup" data-modal="emergency">
+            <span class="close-modal"></span>
+            <div class="modal-inner">
+              <div class="fabric-finder">
+                <h1>Fabric Finder</h1>
+                <form>
+                  <div class="input-container">
+                    <label for="fabricType">Fabric Type</label>
+                    <select name="fabricType">
+                      <option value="">Select One</option>
+                      <option value="">Fabric 1</option>
+                      <option value="">Fabric 2</option>
+                      <option value="">Fabric 3</option>
+                    </select>
+                  </div>
+                  <div class="input-container">
+                    <label for="colour">Colour</label>
+                    <select name="colour">
+                      <option value="">Select One</option>
+                      <option value="">Colour 1</option>
+                      <option value="">Colour 2</option>
+                      <option value="">Colour 3</option>
+                    </select>
+                  </div>
+                  <div class="input-container">
+                    <label for="pattern">Pattern</label>
+                    <select name="pattern">
+                      <option value="">Select One</option>
+                      <option value="">Pattern 1</option>
+                      <option value="">Pattern 2</option>
+                      <option value="">Pattern 3</option>
+                    </select>
+                  </div>
+                  <div class="input-container">
+                    <label for="material">Material</label>
+                    <select name="material">
+                      <option value="">Select One</option>
+                      <option value="">Material 1</option>
+                      <option value="">Material 2</option>
+                      <option value="">Material 3</option>
+                    </select>
+                  </div>
+                </form>
+                <a href="collection.html" class="solid-btn">Find my Fabric</a>
+              </div>
+            </div>
+          </div>
+          <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script src="js/plugins/slick.min.js"></script>
+          <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script src="js/index.js"></script>
+</body>
+
+</html>
